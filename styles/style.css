@@ -18,7 +18,8 @@ header img {
 
 .main {
     font-size: 40px;
-    display: flex;
+    display: flex; /* horizontally arranges items in main */
+    flex-direction: row;
     justify-content: space-around;
 }
 .main li {
@@ -33,13 +34,20 @@ header img {
     margin-top: 10px;              /* Adds space between text and image */
 }
 .description {
-    align-items: right;
+
 
 }
 .instructions {
 
 }
 .recipe-page {
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vx;
+}
+.recipe-page img {
+    size: 20vx;
+}
+#title {
+    text-align: center - 200px;
 }
