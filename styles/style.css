@@ -1,1 +1,45 @@
 /* styles for recipes */
+body {
+    background-color: #DDDDDD;
+    color: black;
+
+}
+header {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    justify-content: center;
+    gap: 36px;
+}
+
+header img {
+    height: 100px; /* Adjust this value to your preferred size */
+}
+
+.main {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.main li {
+    display: flex;
+    flex-direction: column;        /* Stacks text and image vertically */
+    align-items: center;           /* Centers text over the thumbnail */
+    text-align: center;
+}
+.main img {
+    width: 120px;                  /* Set your preferred thumbnail size */
+    height: auto;
+    margin-top: 10px;              /* Adds space between text and image */
+}
+.description {
+    align-items: right;
+
+}
+.instructions {
+
+}
+.recipe-page {
+    justify-content: center;
+    align-items: center;
+}
